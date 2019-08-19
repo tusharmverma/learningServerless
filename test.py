@@ -24,7 +24,8 @@ class TestHandler(unittest.TestCase):
         post = json.loads(res['body'])
         self.assertEquals(1, post['id'])
         self.assertEquals("sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-         post['title'])
+                          post['title'])
+
 
 if __name__ == '__main__':
     unittest.main()
