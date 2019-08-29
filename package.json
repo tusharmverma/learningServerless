@@ -1,0 +1,28 @@
+{
+  "name": "learningServerless",
+  "version": "1.0.1",
+  "description": "A simple serverless python sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "python test.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tusharmverma/learningServerless.git"
+  },
+  "keywords": [
+    "python",
+    "aws",
+    "lambda",
+    "serverless"
+  ],
+  "author": "tusharmverma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tusharmverma/learningServerless"
+  },
+  "homepage": "https://github.com/tusharmverma/learningServerless",
+  "dependencies": {
+    "serverless-python-requirements": "^2.2.1"
+  }
+}
